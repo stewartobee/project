@@ -1,0 +1,418 @@
+
+
+head {
+	padding: 0px ;
+	margin: 0px ;
+}
+
+body {
+	background-color: #999;
+	padding: 0px;
+	margin: 0px;
+}
+
+header {
+	padding: 0px;
+	margin: 0px;
+}
+
+nav {
+	padding: 0px;
+	margin: 0px;
+}
+
+h1 {
+	position: relative;
+	color: ##42145f;
+	font-family: Arial;
+	font-size: 26px;
+	margin: 0;
+	padding: 0;
+}
+
+
+a {
+	font-family: Verdana; 
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+}
+
+br {
+	margin: 0px ;
+	padding: 0px ;
+}
+
+ .secondary {
+ 	background: blue;
+ 	color:red;
+ 	margin: 0;
+	padding: 0;
+ }
+
+header nav h1 {
+	background: #42145f;
+	color: white;
+	margin: 0px 0px 0px 0px;
+	padding: 10px 10px 10px 10px;
+}
+
+
+/* navigation header controls */
+
+.headerlevelone {
+	background-color: #999;
+	border-bottom: 1px solid black;
+	text-align: center; 
+	height: 56px; 
+	padding: 0px;
+	margin: 0px;
+	position: absolute;  /*     and here...        */
+    left: 0; top: 51px ;  /*     and here...        */
+    width: 100%; /*     and here...        */
+}
+
+.headerleveltwoa {
+	position: absolute;  /* <-- change here          */
+    left: 0; top: 132px ;  /*     here               */
+    width: 100%;         /*     and here...        */
+	background-color: rgba(44, 42, 42, 0.90); /*     and here...        */
+	text-align: center;
+	height: 150px; 
+	padding: 0px;
+	margin: 0px;
+}
+
+.headerleveltwob {
+	position: absolute;  /* <-- change here          */
+    left: 0; top: 132px ;  /*     here               */
+    width: 100%;         /*     and here...        */
+	background-color: rgba(44, 42, 42, 0.90); /*     and here...        */
+	text-align: center;
+	height: 150px; 
+	padding: 0px;
+	margin: 0px;
+}
+
+.headerleveltwoc {
+	position: absolute;  /* <-- change here          */
+    left: 0; top: 132px ;  /*     here               */
+    width: 100%;         /*     and here...        */
+	background-color: rgba(44, 42, 42, 0.90); /*     and here...        */
+	text-align: center;
+	height: 150px; 
+	padding: 0px;
+	margin: 0px;
+}
+
+.headerleveltwod {
+	position: absolute;  /* <-- change here          */
+    left: 0; top: 132px ;  /*     here               */
+    width: 100%;         /*     and here...        */
+	background-color: rgba(44, 42, 42, 0.90); /*     and here...        */
+	text-align: center;
+	height: 150px; 
+	padding: 0px;
+	margin: 0px;
+}
+
+.headerleveltwoe {
+	position: absolute;  /* <-- change here          */
+    left: 0; top: 132px ;  /*     here               */
+    width: 100%;         /*     and here...        */
+	background-color: rgba(44, 42, 42, 0.90); /*     and here...        */
+	text-align: center;
+	height: 150px; 
+	padding: 0px;
+	margin: 0px;
+}
+
+.textcolorlonea {
+	color: white;
+}
+
+.textcolorloneb {
+	color: white;
+}
+
+.textcolorlonec {
+	color: white;
+}
+
+.textcolorloned {
+	color: white;
+}
+
+.textcolorlonee {
+	color: white;
+}
+
+/* navigation line level one controls */
+
+
+.linelevelonehome {
+	display: inline-block;
+	font-family: Verdana; 
+	text-decoration: none;
+	font-size: 12px;
+	background-color: white;
+	color: black;
+	text-align: center;
+	border-left: 4px solid red;
+	height: 31px;
+	width: 8%;
+	margin: 30px -4px 0px 0px;
+	padding: 20px 0px 0px 0px ;
+}
+
+
+.linelevelone {
+	display: inline-block;
+	background: linear-gradient(to right, yellow 50%, black 50%);
+    background-size: 200% 100%;
+    background-position:right bottom;
+	border-left: 1px solid white;
+	border-bottom: 1px solid white;
+	text-align: center;
+	font-family: ariel;
+	font-size: 12px;
+	width: 14%;
+	margin: 30px -4px 0px 0px;
+	padding: 20px 0px 0px 0px;
+	box-sizing: border-box;
+	height: 51px ;
+
+-webkit-transition: background 1000ms ease;
+-moz-transition: background 1000ms ease;
+-ms-transition: background 1000ms ease;
+-o-transition: background 1000ms ease;
+transition: background 1000ms ease;
+
+}
+
+
+/* navigation line level two controls */
+
+
+.lineleveltwoa {
+	display: inline-block;
+	border-left: 1px solid white;
+	border-bottom: 1px solid white;
+	background-color: #555;
+	text-align: center;
+	font-family: ariel;
+	font-size: 12px;
+	height: 15px;
+	width: 23%;
+	margin: 0px -4px 0px 0px;
+	padding: 12px 10px 10px 10px ;
+	
+} 
+
+.textcolora {
+	color: white;
+	background-color: transparent;
+	padding: 10px 105px 10px 105px
+}
+
+
+.lineleveltwoa:hover {
+	background-color: white;
+	color: black;
+}
+
+.textcolora:hover {
+	color: black;
+	background-color: transparent;
+	padding: 10px 105px 10px 105px
+}
+
+.lineleveltwob {
+	display: inline-block;
+	border-left: 1px solid white;
+	border-bottom: 1px solid white;
+	background-color: #555;
+	text-align: center;
+	font-family: ariel;
+	font-size: 12px;
+	height: 15px;
+	width: 18%;
+	margin: 0px -4px 0px 0px;
+	padding: 12px 10px 10px 10px ;
+
+} 
+
+.textcolorb {
+	color: white;
+	background-color: transparent;
+	padding: 10px 75px 10px 75px
+}
+
+
+.lineleveltwob:hover {
+	background-color: white;
+	color: black;
+}
+
+.textcolorb:hover {
+	color: black;
+	background-color: transparent;
+	padding: 10px 75px 10px 75px
+}
+
+.lineleveltwoc {
+	display: inline-block;
+	border-left: 1px solid white;
+	border-bottom: 1px solid white;
+	background-color: #555;
+	text-align: center;
+	font-family: ariel;
+	font-size: 12px;
+	height: 15px;
+	width: 14.75%;
+	margin: 0px -4px 0px 0px;
+	padding: 12px 10px 10px 10px ;
+
+} 
+
+.textcolorc {
+	color: white;
+	background-color: transparent;
+	padding: 10px 50px 10px 50px
+}
+
+
+.lineleveltwoc:hover {
+	background-color: white;
+	color: black;
+}
+
+.textcolorc:hover {
+	color: black;
+	background-color: transparent;
+	padding: 10px 50px 10px 50px
+}
+
+.lineleveltwod {
+	display: inline-block;
+	border-left: 1px solid white;
+	border-bottom: 1px solid white;
+	background-color: #555;
+	text-align: center;
+	font-family: ariel;
+	font-size: 12px;
+	height: 15px;
+	width: 12.4%;
+	margin: 0px -4px 0px 0px;
+	padding: 12px 10px 10px 10px ;
+
+} 
+
+.textcolord {
+	color: white;
+	background-color: transparent;
+	padding: 10px 30px 10px 30px
+}
+
+
+.lineleveltwod:hover {
+	background-color: white;
+	color: black;
+}
+
+.textcolord:hover {
+	color: black;
+	background-color: transparent;
+	padding: 10px 30px 10px 30px
+}
+
+
+.lineleveltwoe {
+	display: inline-block;
+	border-left: 1px solid white;
+	border-bottom: 1px solid white;
+	background-color: #555;
+	text-align: center;
+	font-family: ariel;
+	font-size: 12px;
+	height: 15px;
+	width: 10.65%;
+	margin: 0px -4px 0px 0px;
+	padding: 12px 10px 10px 10px ;
+
+} 
+
+.textcolore {
+	color: white;
+	background-color: transparent;
+	padding: 10px 20px 10px 20px
+}
+
+
+.lineleveltwoe:hover {
+	background-color: white;
+	color: black;
+}
+
+.textcolore:hover {
+	color: black;
+	background-color: transparent;
+	padding: 10px 20px 10px 20px
+}
+
+
+button {
+	float: right;
+	width: 22px;
+	height: 24px;
+	margin: 14px 8px 0px 0px;
+	padding: 0px;
+
+}
+
+input { 
+	float: right;
+	width: 180px;
+	height: 22px;
+	margin: 13px 4px 0px 0px;
+	padding: 0%;
+
+}
+
+.subtitle { 
+	text-align: center;
+	border-bottom: 1px solid black;
+	background-color: transparent;
+	color: black;
+	font-family: Arial;
+	font-size: 22px;
+	margin: 40px 10px 10px 10px  ;
+	padding: 10px ;
+ }
+
+
+.wrapper_hp {
+text-align: center;
+padding: 20px 10px 20px 20px; 
+}
+
+.homepagebanner {
+width: 200px;
+height: 200px;
+display: inline-block;
+padding: 10px 10px 10px 10px ; 
+
+}
+
+.navspacingone {
+	position: relative;
+	height: 57px;
+}
+
+.navspacingtwo {
+	position: relative;
+	height: 24px;
+background-color: transparent; 
+}
+
+
