@@ -2,25 +2,69 @@
 
 <hmtl>
 
+<head>
+
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
 <meta http-equiv="Pragma" content="no-cache" />
 <meta http-equiv="Expires" content="0" />
 
-<head>
-	<title>Test page for scrolling web page</title>	
+<link rel="stylesheet" href="scrollstory.css">
+	
+	<title>Scrolling Story</title>	
 
 </head>
 
 	<body>
-		<h1>
-			This is going to be awesome
-		</h1>
-		<h2>
-			This is an update I have just made
-		</h2>
-		<h3>
-			And this is another update I just made :D
-		</h3>
+	
+		<section class="container">
+			<div class="content"> 
+				<h1>
+					Scroll To Begin
+				</h1>
+					<p>
+						Start is like this...
+					</p>
+
+			</div>
+		</section>	
+
+
+		<div id="set-height"> </div>
+
+		<video id="v0" tabindex="0" autobuffer preload>
+			<source type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' src="coverr-aerial-flyover-over-skiing-1563376908634.mp4"></source>
+
+		</video>
+
+		<script> 
+
+			var frameNumber = 0, // start video at frame 0
+    		// lower numbers = faster playback
+    		playbackConst = 400, 
+    		// get page height from video duration
+    		setHeight = document.getElementById("set-height"), 
+   			// select video element         
+    		vid = document.getElementById('v0'); 
+    		// var vid = $('#v0')[0]; // jquery option
+
+			// dynamically set the page height according to video length
+			vid.addEventListener('loadedmetadata', function() {
+  			setHeight.style.height = Math.floor(vid.duration) * playbackConst + "px";
+			});
+
+
+			// Use requestAnimationFrame for smooth playback
+			function scrollPlay(){  
+  			var frameNumber  = window.pageYOffset/playbackConst;
+  			vid.currentTime  = frameNumber;
+  			window.requestAnimationFrame(scrollPlay);
+			}
+
+			window.requestAnimationFrame(scrollPlay);
+
+
+		</script>
+
 	</body>
 
 </hmtl>
