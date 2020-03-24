@@ -1,5 +1,5 @@
 body {
-	background-color: black;
+	background-color: white;
 	font-family: 'montserrat';
 	padding: 3em;
 }
@@ -10,5 +10,15 @@ top: 0;
 left: 0;
 width: 100%;
 
+}
+
+#set-height {
+display: block;
+}
+
+
+section {
+	z-index: 1;
+	position: relative;
 }
 
