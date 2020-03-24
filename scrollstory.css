@@ -1,0 +1,14 @@
+body {
+	background-color: black;
+	font-family: 'montserrat';
+	padding: 3em;
+}
+
+#v0 {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+
+}
+
