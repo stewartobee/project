@@ -41,7 +41,9 @@ h1 {
 }
 
 p {
-	font-size: 1em;
+	font-size: 2em;
 	background-color: tomato;
 	color: black;
+	padding: 5px 5px
+	width: 200px; 
 }
