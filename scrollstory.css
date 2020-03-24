@@ -32,7 +32,8 @@ section {
 
 h1 {
 	font-size: 3em;
-	background: black;
+	font-style: white;
+	background: ;
 	display: inline-block;
 	padding: 10px 15px;
 	border-radius: 5px;
@@ -41,4 +42,6 @@ h1 {
 
 p {
 	font-size: 1em;
+	background-color: tomato;
+	font-style: black;
 }
