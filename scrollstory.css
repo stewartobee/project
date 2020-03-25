@@ -37,7 +37,7 @@ h1 {
 	display: table;
 	padding: 10px 15px;
 	border-radius: 5px;
-	margin: 0;
+	margin: 10px;
 }
 
 span {
@@ -45,6 +45,11 @@ span {
 	display: table;
 	background: tomato;
 	color: black;
-	padding: 5px 80px 5px 5px
-	margin: 0px 800px 0px 0px;
+	padding: 10px 15px;
+	border-radius: 5px;
+	margin: 10px;
+
 }
+
+
+
